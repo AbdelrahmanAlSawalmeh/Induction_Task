@@ -1,0 +1,31 @@
+.card {
+    width: 60%;
+    height: fit-content;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 2rem;
+}
+
+.snacks {
+    margin-bottom: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+.details {
+    margin-bottom: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.buy {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}

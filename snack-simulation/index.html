@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./design.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Snack-Machine</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title" style="margin-left: auto; margin-right: auto; width: fit-content;">Snack-Machine</h4>
+            <div class="card-text">
+                <div class="row justify-content-between">
+                    <div class="snacks col-5" id="gum" style="background-color: cadetblue;">
+                        <h5 style="font-size: medium;">Chewig-Gum (0.50JD)</h5>
+                        <p id="gumQuan">10</p>
+                    </div>
+                    <div class="details col-5" style="background-color: cadetblue;">
+                        <h5 style="font-size: medium;">Money Inside Machine</h5>
+                        <p id="mim">0</p>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="snacks col-5" id="chips" style="background-color: bisque;">
+                        <h5 style="font-size: medium;">Chips (1.0JD)</h5>
+                        <p id="chipsQuan">10</p>
+                    </div>
+                    <div class="details col-5" style="background-color: bisque;">
+                        <h5 style="font-size: medium;">Money In Transaction</h5>
+                        <p id="mit">0</p>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="snacks col-5" id="chock" style="background-color: brown;">
+                        <h5 style="font-size: medium;">Chockolate (2.0JD)</h5>
+                        <p id="chockQuan">10</p>
+                    </div>
+                    <div class="details col-5" style="background-color: brown;">
+                        <h5 style="font-size: medium;">Change</h5>
+                        <p id="chng">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="buy">
+                <a class="btn btn-success" id="buy_button" role="button">BUY</a>
+                <a class="btn btn-warning" id="buy_cancel" role="button">CANCEL</a>
+            </div>
+            <div class="buttons">
+                <a role="button" id="quart" class="card-link btn btn-primary">0.25JD</a>
+                <a role="button" id="half" class="card-link btn btn-secondary">0.50JD</a>
+                <a role="button" id="one" class="card-link btn btn-dark">1.0JD</a>
+                <a role="button" id="five" class="card-link btn btn-warning">5.0JD</a>
+                <a role="button" id="ten" class="card-link btn btn-danger">10.0JD</a>
+            </div>
+        </div>
+    </div>
+    <script src="simulate.js"></script>
+</body>
+
+</html>
